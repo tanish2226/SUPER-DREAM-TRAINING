@@ -95,3 +95,19 @@ target = -5
 
 Output = 1
 
+Optimized — Binary Search
+
+Suppose:
+
+m = 3
+n = 4
+
+Total elements:
+
+m × n = 12
+
+So we search indices:
+
+0 → 11
+
+The tricky part is converting a 1D index into a matrix position.
