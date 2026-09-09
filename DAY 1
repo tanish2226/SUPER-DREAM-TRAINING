@@ -40,4 +40,40 @@ class Solution {
         return -1;
     }
 }
+Edge test case: 
+Test 1 — Target in middle
+nums = [-1,0,3,5,9,12]
+target = 5
+
+Output = 3
+Test 2 — Target at beginning
+nums = [1,2,3,4,5]
+target = 1
+
+Output = 0
+Test 3 — Target at end
+nums = [1,2,3,4,5]
+target = 5
+
+Output = 4
+Test 4 — Target doesn't exist
+nums = [1,2,3,4,5]
+target = 6
+
+Output = -1
+Test 5 — One element, found
+nums = [7]
+target = 7
+
+Output = 0
+Test 6 — One element, not found
+nums = [7]
+target = 3
+
+Output = -1
+Test 7 — Negative numbers
+nums = [-10,-5,-2,0,4]
+target = -5
+
+Output = 1
 
