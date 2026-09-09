@@ -1,5 +1,6 @@
 Binary Search 
 
+brute force:
 class Solution {
     public int search(int[] nums, int target) {
 
@@ -12,3 +13,5 @@ class Solution {
         return -1;
     }
 }
+
+
