@@ -1,0 +1,24 @@
+Complexity Comparison
+Approach	Time	Space	Accepted?
+Linear Search	O(n)	O(1)	❌
+Binary Search	O(log n)	O(1)	✅
+
+Why O(log n)?
+
+Every iteration eliminates half of the remaining elements.
+
+n
+↓
+n/2
+↓
+n/4
+↓
+n/8
+↓
+...
+↓
+1
+
+Therefore:
+
+Time = O(log n)
