@@ -226,3 +226,22 @@ aet → [eat, tea, ate]
 ant → [tan, nat]
 abt → [bat]
 
+Input:
+
+["eat","tea","tan","ate","nat","bat"]
+"eat"
+
+Frequency:
+
+a=1
+e=1
+t=1
+
+Key:
+
+#a1...e1...t1
+
+Map:
+
+key → [eat]
+
