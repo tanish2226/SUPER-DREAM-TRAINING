@@ -245,3 +245,44 @@ Map:
 
 key → [eat]
 
+
+Edge Test Cases
+Empty string
+Input:
+[""]
+
+Output:
+[[""]]
+
+Our code works because all counts are 0.
+
+One string
+Input:
+["a"]
+
+Output:
+[["a"]]
+All strings are anagrams
+Input:
+["abc", "bca", "cab"]
+
+Output:
+[["abc", "bca", "cab"]]
+No anagrams
+Input:
+["abc", "def", "ghi"]
+
+Output:
+[["abc"], ["def"], ["ghi"]]
+Duplicate strings
+Input:
+["a", "a", "a"]
+
+Output:
+[["a", "a", "a"]]
+Empty + normal string
+Input:
+["", "a", ""]
+
+Output:
+
