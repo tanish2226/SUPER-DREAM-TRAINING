@@ -140,3 +140,24 @@ Output:
 
 -3 -1
 -4 -2
+
+GROUP ANAGRAMS:
+
+Brute Force — Compare Every String
+
+One simple idea:
+
+Take a string.
+Compare it with every other string.
+Sort both strings.
+If sorted versions are equal → they are anagrams.
+Keep track of strings already grouped.
+
+For example:
+
+eat → aet
+tea → aet
+tan → ant
+ate → aet
+nat → ant
+bat → abt
