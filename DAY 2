@@ -21,3 +21,39 @@ class Solution {
         }
     }
 }
+
+OPTIMIZED - 
+Step 1: Transpose
+
+Only swap elements above the main diagonal.
+
+1 2 3
+4 5 6
+7 8 9
+
+Swap:
+
+2 ↔ 4
+3 ↔ 7
+6 ↔ 8
+
+Result:
+
+1 4 7
+2 5 8
+3 6 9
+
+Why j = i + 1?
+
+Because we don't want to swap the same pair twice.
+
+Step 2: Reverse every row
+1 4 7 → 7 4 1
+2 5 8 → 8 5 2
+3 6 9 → 9 6 3
+
+Final:
+
+7 4 1
+8 5 2
+9 6 3
