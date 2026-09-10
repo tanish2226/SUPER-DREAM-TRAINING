@@ -200,3 +200,28 @@ class Solution {
         return result;
     }
 }
+
+Optimized — HashMap + Sorted String Key
+
+Instead of comparing every string with every other string, create a key for each string.
+
+Example:
+
+eat → aet
+tea → aet
+ate → aet
+
+tan → ant
+nat → ant
+
+bat → abt
+
+Then use:
+
+HashMap<key, list of strings>
+
+So:
+
+aet → [eat, tea, ate]
+ant → [tan, nat]
+abt → [bat]
